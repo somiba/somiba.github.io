@@ -1,137 +1,57 @@
-<HTML>
-<head>
-<style TYPE="text/css">
-<!-- 
-  body { font-family : Tahoma ; font-size : 12 }
-  table { border-collapse : collapse }
-  table.noBorder { border : none }
-  th { font-style : bold ; background : gray}
-  td { background : transparant ; vertical-align : top }
-  td.stringDataCell { font-weight : bold ; text-align : left ; vertical-align: top}
-  td.rStringDataCell { font-weight : bold ; text-align : right ; vertical-align : top }
-  td.numberDataCell { text-align : right }
-  td.fieldname { text-align : right ; background : none ; font-weight : normal ; vertical-align: top }
-  td.centeredCell { text-align : center ; font-weight : normal }
-  td.centeredBoldCell { text-align : center ; font-weight : bold }
-  td.topAligned { vertical-align : top }
-  td.ppCell { text-align : right ; background : purple }
-  td.shCell { text-align : right ; background : pink }
-  td.sdFOCell { text-align : right ; background : paleGreen }
-  td.group1 { text-align : right ; background : purple }
-  td.group1Header{ text-align : center ; background : purple }
-  td.group1L { text-align : left ; background : purple }
-  td.group2 { text-align : right ; background : pink }
-  td.group2Header{ text-align : center ; background : pink }
-  td.group2L { text-align : left ; background : pink }
-  td.group3 { text-align : right ; background : paleGreen }
-  td.group3header{ text-align : center ; background : paleGreen }
-  td.group3L { text-align : left ; background : paleGreen }
-  tr.tableHeader { font-weight : bold }
-  tr.lineScoreWin { font-weight : bold }
-  tr.boldRow { background-color : lightSlateGray ;  font-weight : bold ; border-top : 3px solid black ; }
-  h1 { margin : 5 auto 5 auto ; font-family : Tahoma  ; font-size : 18 ; text-align : center ;  background-color : gray }
-  h2 { margin : 5 auto 5 auto ; font-family : Tahoma ; font-size : 16 ; text-align : left ; font-weight : bold }
-  h2.centered { text-align : center }
-  h3 { margin : 5 auto 5 auto ; font-family : Tahoma ; font-size : 14 ; text-align : left ; font-weight : bold }
-  hr { margin : 5 auto 5 auto }
-  a { font-family : tahoma ; font-weight : bold }
-  -->
-   </style>
-   </head>
+<HTML><HEAD>
+<BASEFONT FACE="Courier New" SIZE="1" COLOR="#000000">
+</HEAD>
 <BODY>
-<H2>WIN/LOSS BREAKDOWN FOR 2014-15 SOMIBA</H2><BR>
-<TABLE width="600">
-<TR class="tableHeader">
-<TD></TD>
-<TD colspan="3" align="center">OVERALL RECORD</TD>
-<TD colspan="3" align="center">HOME RECORD</TD>
-<TD colspan="3" align="center">ROAD RECORD</TD>
-</TR>
-<TR class="tableHeader">
-<TD>Team</TD>
-<TD>WON</TD>
-<TD>LOST</TD>
-<TD>PCT</TD>
-<TD>WON</TD>
-<TD>LOST</TD>
-<TD>PCT</TD>
-<TD>WON</TD>
-<TD>LOST</TD>
-<TD>PCT</TD>
-<TD width="80">LAST 10</TD>
-<TD width="80">STREAK</TD>
-</TR>
-<TR><TD>ANA</TD><TD>36</TD><TD>45</TD><TD>  .444</TD><TD>  17</TD><TD>24</TD><TD>  .415</TD><TD>19</TD><TD>21</TD><TD>  .475</TD><TD>6-4</TD><TD>Won 2</TD></TR>
-<TR><TD>TEM</TD><TD>50</TD><TD>31</TD><TD>  .617</TD><TD>  26</TD><TD>15</TD><TD>  .634</TD><TD>24</TD><TD>16</TD><TD>  .600</TD><TD>7-3</TD><TD>Won 5</TD></TR>
-<TR><TD>LAW</TD><TD>26</TD><TD>56</TD><TD>  .317</TD><TD>  12</TD><TD>29</TD><TD>  .293</TD><TD>14</TD><TD>27</TD><TD>  .341</TD><TD>0-10</TD><TD>Lost 18</TD></TR>
-<TR><TD>DAV</TD><TD>66</TD><TD>15</TD><TD>  .815</TD><TD>  36</TD><TD>5</TD><TD>  .878</TD><TD>30</TD><TD>10</TD><TD>  .750</TD><TD>8-2</TD><TD>Won 7</TD></TR>
-<TR><TD>BAY</TD><TD>35</TD><TD>46</TD><TD>  .432</TD><TD>  14</TD><TD>27</TD><TD>  .341</TD><TD>21</TD><TD>19</TD><TD>  .525</TD><TD>4-6</TD><TD>Won 1</TD></TR>
-<TR><TD>REA</TD><TD>39</TD><TD>42</TD><TD>  .481</TD><TD>  17</TD><TD>24</TD><TD>  .415</TD><TD>22</TD><TD>18</TD><TD>  .550</TD><TD>6-4</TD><TD>Won 3</TD></TR>
-<TR><TD>LAK</TD><TD>64</TD><TD>17</TD><TD>  .790</TD><TD>  34</TD><TD>7</TD><TD>  .829</TD><TD>30</TD><TD>10</TD><TD>  .750</TD><TD>5-5</TD><TD>Won 1</TD></TR>
-<TR><TD>LIN</TD><TD>65</TD><TD>17</TD><TD>  .793</TD><TD>  32</TD><TD>9</TD><TD>  .780</TD><TD>33</TD><TD>8</TD><TD>  .805</TD><TD>7-3</TD><TD>Lost 1</TD></TR>
-<TR><TD>LEX</TD><TD>45</TD><TD>37</TD><TD>  .549</TD><TD>  22</TD><TD>19</TD><TD>  .537</TD><TD>23</TD><TD>18</TD><TD>  .561</TD><TD>4-6</TD><TD>Lost 1</TD></TR>
-<TR><TD>DAK</TD><TD>24</TD><TD>57</TD><TD>  .296</TD><TD>  16</TD><TD>25</TD><TD>  .390</TD><TD>8</TD><TD>32</TD><TD>  .200</TD><TD>2-8</TD><TD>Lost 4</TD></TR>
-<TR><TD>BAC</TD><TD>28</TD><TD>43</TD><TD>  .394</TD><TD>   7</TD><TD>23</TD><TD>  .233</TD><TD>21</TD><TD>20</TD><TD>  .512</TD><TD>4-6</TD><TD>Won 1</TD></TR>
-<TR><TD>AND</TD><TD>39</TD><TD>43</TD><TD>  .476</TD><TD>  21</TD><TD>20</TD><TD>  .512</TD><TD>18</TD><TD>23</TD><TD>  .439</TD><TD>4-6</TD><TD>Won 1</TD></TR>
-<TR><TD>PLE</TD><TD>44</TD><TD>38</TD><TD>  .537</TD><TD>  21</TD><TD>20</TD><TD>  .512</TD><TD>23</TD><TD>18</TD><TD>  .561</TD><TD>5-5</TD><TD>Won 1</TD></TR>
-<TR><TD>SUN</TD><TD>62</TD><TD>19</TD><TD>  .765</TD><TD>  31</TD><TD>10</TD><TD>  .756</TD><TD>31</TD><TD>9</TD><TD>  .775</TD><TD>9-1</TD><TD>Won 9</TD></TR>
-<TR><TD>BOU</TD><TD>32</TD><TD>50</TD><TD>  .390</TD><TD>  18</TD><TD>23</TD><TD>  .439</TD><TD>14</TD><TD>27</TD><TD>  .341</TD><TD>4-6</TD><TD>Won 1</TD></TR>
-<TR><TD>NAZ</TD><TD>37</TD><TD>42</TD><TD>  .468</TD><TD>  27</TD><TD>14</TD><TD>  .659</TD><TD>10</TD><TD>28</TD><TD>  .263</TD><TD>4-6</TD><TD>Won 1</TD></TR>
-<TR><TD>TUL</TD><TD>26</TD><TD>55</TD><TD>  .321</TD><TD>  19</TD><TD>22</TD><TD>  .463</TD><TD>7</TD><TD>33</TD><TD>  .175</TD><TD>5-5</TD><TD>Lost 2</TD></TR>
-<TR><TD>ROM</TD><TD>43</TD><TD>34</TD><TD>  .558</TD><TD>  23</TD><TD>15</TD><TD>  .605</TD><TD>20</TD><TD>19</TD><TD>  .513</TD><TD>8-2</TD><TD>Won 4</TD></TR>
-<TR><TD>RUC</TD><TD>28</TD><TD>53</TD><TD>  .346</TD><TD>  14</TD><TD>27</TD><TD>  .341</TD><TD>14</TD><TD>26</TD><TD>  .350</TD><TD>0-10</TD><TD>Lost 10</TD></TR>
-<TR><TD>ROE</TD><TD>20</TD><TD>61</TD><TD>  .247</TD><TD>  10</TD><TD>31</TD><TD>  .244</TD><TD>10</TD><TD>30</TD><TD>  .250</TD><TD>2-8</TD><TD>Lost 4</TD></TR>
-<TR><TD>MIN</TD><TD>34</TD><TD>47</TD><TD>  .420</TD><TD>  23</TD><TD>18</TD><TD>  .561</TD><TD>11</TD><TD>29</TD><TD>  .275</TD><TD>4-6</TD><TD>Won 1</TD></TR>
-<TR><TD>ANC</TD><TD>42</TD><TD>37</TD><TD>  .532</TD><TD>  21</TD><TD>17</TD><TD>  .553</TD><TD>21</TD><TD>20</TD><TD>  .512</TD><TD>6-4</TD><TD>Won 2</TD></TR>
-<TR><TD>TOTAL</TD><TD>885</TD><TD>885</TD><TD>  .500</TD><TD>461</TD><TD>424</TD><TD>  .521</TD><TD>424</TD><TD>461</TD><TD>  .479</TD>
-</TABLE>
-<BR><BR>
-<TABLE width="600">
-<TR class="tableHeader">
-<TD></TD>
-<TD colspan="3" align="center">OVERTIME RECORD</TD>
-<TD colspan="3" align="center">5 PTS OR LESS</TD>
-<TD colspan="2" align="center">LONGEST STREAK</TD>
-<TD colspan="2" align="center">MOST PTS</TD>
-<TD colspan="2" align="center">LEAST PTS</TD>
-</TR>
-<TR class="tableHeader">
-<TD>Team</TD>
-<TD>WON</TD>
-<TD>LOST</TD>
-<TD>PCT</TD>
-<TD>WON</TD>
-<TD>LOST</TD>
-<TD>PCT</TD>
-<TD width="55">WIN</TD>
-<TD width="55">LOSS</TD>
-<TD>TEAM</TD>
-<TD>OPP</TD>
-<TD>TEAM</TD>
-<TD>OPP</TD>
-</TR>
-<TR><TD>ANA</TD><TD>1</TD><TD>1</TD><TD>  .500</TD><TD>6</TD><TD>10</TD><TD>  .375</TD><TD>4</TD><TD>6</TD><TD>135</TD><TD>130</TD><TD>72</TD><TD>67</TD></TR>
-<TR><TD>TEM</TD><TD>0</TD><TD>1</TD><TD>  .000</TD><TD>15</TD><TD>8</TD><TD>  .652</TD><TD>5</TD><TD>5</TD><TD>133</TD><TD>146</TD><TD>83</TD><TD>72</TD></TR>
-<TR><TD>LAW</TD><TD>0</TD><TD>2</TD><TD>  .000</TD><TD>7</TD><TD>7</TD><TD>  .500</TD><TD>3</TD><TD>18</TD><TD>118</TD><TD>130</TD><TD>68</TD><TD>70</TD></TR>
-<TR><TD>DAV</TD><TD>0</TD><TD>0</TD><TD>  ----</TD><TD>3</TD><TD>2</TD><TD>  .600</TD><TD>16</TD><TD>3</TD><TD>146</TD><TD>133</TD><TD>77</TD><TD>72</TD></TR>
-<TR><TD>BAY</TD><TD>2</TD><TD>1</TD><TD>  .667</TD><TD>9</TD><TD>8</TD><TD>  .529</TD><TD>3</TD><TD>6</TD><TD>144</TD><TD>134</TD><TD>77</TD><TD>69</TD></TR>
-<TR><TD>REA</TD><TD>0</TD><TD>0</TD><TD>  ----</TD><TD>6</TD><TD>9</TD><TD>  .400</TD><TD>7</TD><TD>11</TD><TD>137</TD><TD>127</TD><TD>67</TD><TD>76</TD></TR>
-<TR><TD>LAK</TD><TD>0</TD><TD>1</TD><TD>  .000</TD><TD>9</TD><TD>6</TD><TD>  .600</TD><TD>18</TD><TD>3</TD><TD>158</TD><TD>148</TD><TD>85</TD><TD>74</TD></TR>
-<TR><TD>LIN</TD><TD>3</TD><TD>0</TD><TD> 1.000</TD><TD>7</TD><TD>7</TD><TD>  .500</TD><TD>19</TD><TD>2</TD><TD>145</TD><TD>131</TD><TD>86</TD><TD>71</TD></TR>
-<TR><TD>LEX</TD><TD>1</TD><TD>3</TD><TD>  .250</TD><TD>3</TD><TD>6</TD><TD>  .333</TD><TD>6</TD><TD>3</TD><TD>131</TD><TD>134</TD><TD>72</TD><TD>74</TD></TR>
-<TR><TD>DAK</TD><TD>1</TD><TD>1</TD><TD>  .500</TD><TD>11</TD><TD>5</TD><TD>  .688</TD><TD>4</TD><TD>13</TD><TD>129</TD><TD>131</TD><TD>66</TD><TD>72</TD></TR>
-<TR><TD>BAC</TD><TD>1</TD><TD>0</TD><TD> 1.000</TD><TD>4</TD><TD>8</TD><TD>  .333</TD><TD>3</TD><TD>5</TD><TD>131</TD><TD>145</TD><TD>74</TD><TD>68</TD></TR>
-<TR><TD>AND</TD><TD>3</TD><TD>0</TD><TD> 1.000</TD><TD>14</TD><TD>10</TD><TD>  .583</TD><TD>5</TD><TD>5</TD><TD>136</TD><TD>134</TD><TD>78</TD><TD>69</TD></TR>
-<TR><TD>PLE</TD><TD>1</TD><TD>2</TD><TD>  .333</TD><TD>8</TD><TD>8</TD><TD>  .500</TD><TD>6</TD><TD>4</TD><TD>131</TD><TD>158</TD><TD>76</TD><TD>67</TD></TR>
-<TR><TD>SUN</TD><TD>1</TD><TD>1</TD><TD>  .500</TD><TD>7</TD><TD>7</TD><TD>  .500</TD><TD>11</TD><TD>2</TD><TD>148</TD><TD>143</TD><TD>80</TD><TD>74</TD></TR>
-<TR><TD>BOU</TD><TD>1</TD><TD>0</TD><TD> 1.000</TD><TD>6</TD><TD>11</TD><TD>  .353</TD><TD>2</TD><TD>7</TD><TD>123</TD><TD>133</TD><TD>74</TD><TD>62</TD></TR>
-<TR><TD>NAZ</TD><TD>0</TD><TD>2</TD><TD>  .000</TD><TD>10</TD><TD>10</TD><TD>  .500</TD><TD>5</TD><TD>5</TD><TD>130</TD><TD>139</TD><TD>80</TD><TD>82</TD></TR>
-<TR><TD>TUL</TD><TD>1</TD><TD>1</TD><TD>  .500</TD><TD>10</TD><TD>9</TD><TD>  .526</TD><TD>3</TD><TD>8</TD><TD>125</TD><TD>132</TD><TD>62</TD><TD>66</TD></TR>
-<TR><TD>ROM</TD><TD>0</TD><TD>2</TD><TD>  .000</TD><TD>6</TD><TD>11</TD><TD>  .353</TD><TD>6</TD><TD>4</TD><TD>131</TD><TD>137</TD><TD>68</TD><TD>61</TD></TR>
-<TR><TD>RUC</TD><TD>2</TD><TD>1</TD><TD>  .667</TD><TD>10</TD><TD>10</TD><TD>  .500</TD><TD>3</TD><TD>10</TD><TD>119</TD><TD>137</TD><TD>67</TD><TD>71</TD></TR>
-<TR><TD>ROE</TD><TD>1</TD><TD>1</TD><TD>  .500</TD><TD>9</TD><TD>7</TD><TD>  .563</TD><TD>2</TD><TD>10</TD><TD>122</TD><TD>135</TD><TD>61</TD><TD>73</TD></TR>
-<TR><TD>MIN</TD><TD>1</TD><TD>2</TD><TD>  .333</TD><TD>10</TD><TD>6</TD><TD>  .625</TD><TD>4</TD><TD>6</TD><TD>131</TD><TD>144</TD><TD>73</TD><TD>74</TD></TR>
-<TR><TD>ANC</TD><TD>2</TD><TD>0</TD><TD> 1.000</TD><TD>5</TD><TD>10</TD><TD>  .333</TD><TD>7</TD><TD>6</TD><TD>138</TD><TD>144</TD><TD>81</TD><TD>75</TD></TR>
-</TABLE>
-</BODY>
-</HTML>
+<div><FONT FACE="Courier New" SIZE=1 COLOR="#FF0000"><br>
+</FONT><FONT FACE="Courier New" SIZE=1 COLOR="#FF0000">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; OVERALL RECORD&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; HOME RECORD&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ROAD RECORD<br>
+</FONT><FONT FACE="Courier New" SIZE=1 COLOR="#FF0000">Team&nbsp;&nbsp; WON LOST&nbsp; PCT&nbsp;&nbsp;&nbsp;&nbsp; WON LOST&nbsp; PCT&nbsp;&nbsp;&nbsp;&nbsp; WON LOST&nbsp; PCT&nbsp;&nbsp;&nbsp; LAST 10&nbsp;&nbsp; STREAK<br>
+</FONT><FONT FACE="Courier New" SIZE=1 COLOR="#0000FF">ANA</FONT><FONT FACE="Courier New" SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp; 37&nbsp; 45&nbsp; .451&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 17&nbsp; 24&nbsp; .415&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 20&nbsp; 21&nbsp; .488&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7-3&nbsp;&nbsp;&nbsp;&nbsp; Won 3<br>
+</FONT><FONT FACE="Courier New" SIZE=1 COLOR="#0000FF">ANC</FONT><FONT FACE="Courier New" SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp; 43&nbsp; 39&nbsp; .524&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 22&nbsp; 19&nbsp; .537&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 21&nbsp; 20&nbsp; .512&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4-6&nbsp;&nbsp;&nbsp;&nbsp; Lost 1<br>
+</FONT><FONT FACE="Courier New" SIZE=1 COLOR="#0000FF">AND</FONT><FONT FACE="Courier New" SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp; 39&nbsp; 43&nbsp; .476&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 21&nbsp; 20&nbsp; .512&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 18&nbsp; 23&nbsp; .439&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4-6&nbsp;&nbsp;&nbsp;&nbsp; Won 1<br>
+</FONT><FONT FACE="Courier New" SIZE=1 COLOR="#0000FF">BAC</FONT><FONT FACE="Courier New" SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp; 33&nbsp; 49&nbsp; .402&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 12&nbsp; 29&nbsp; .293&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 21&nbsp; 20&nbsp; .512&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5-5&nbsp;&nbsp;&nbsp;&nbsp; Lost 4<br>
+</FONT><FONT FACE="Courier New" SIZE=1 COLOR="#0000FF">BAY</FONT><FONT FACE="Courier New" SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp; 35&nbsp; 47&nbsp; .427&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 14&nbsp; 27&nbsp; .341&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 21&nbsp; 20&nbsp; .512&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4-6&nbsp;&nbsp;&nbsp;&nbsp; Lost 1<br>
+</FONT><FONT FACE="Courier New" SIZE=1 COLOR="#0000FF">BOU</FONT><FONT FACE="Courier New" SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp; 32&nbsp; 50&nbsp; .390&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 18&nbsp; 23&nbsp; .439&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 14&nbsp; 27&nbsp; .341&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4-6&nbsp;&nbsp;&nbsp;&nbsp; Won 1<br>
+</FONT><FONT FACE="Courier New" SIZE=1 COLOR="#0000FF">DAK</FONT><FONT FACE="Courier New" SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp; 24&nbsp; 58&nbsp; .293&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 16&nbsp; 25&nbsp; .390&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8&nbsp; 33&nbsp; .195&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1-9&nbsp;&nbsp;&nbsp;&nbsp; Lost 5<br>
+</FONT><FONT FACE="Courier New" SIZE=1 COLOR="#0000FF">DAV</FONT><FONT FACE="Courier New" SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp; 67&nbsp; 15&nbsp; .817&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 36&nbsp;&nbsp; 5&nbsp; .878&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 31&nbsp; 10&nbsp; .756&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9-1&nbsp;&nbsp;&nbsp;&nbsp; Won 8<br>
+</FONT><FONT FACE="Courier New" SIZE=1 COLOR="#0000FF">LAK</FONT><FONT FACE="Courier New" SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp; 65&nbsp; 17&nbsp; .793&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 34&nbsp;&nbsp; 7&nbsp; .829&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 31&nbsp; 10&nbsp; .756&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5-5&nbsp;&nbsp;&nbsp;&nbsp; Won 2<br>
+</FONT><FONT FACE="Courier New" SIZE=1 COLOR="#0000FF">LAW</FONT><FONT FACE="Courier New" SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp; 26&nbsp; 56&nbsp; .317&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 12&nbsp; 29&nbsp; .293&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 14&nbsp; 27&nbsp; .341&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0-10&nbsp;&nbsp;&nbsp; Lost 18<br>
+</FONT><FONT FACE="Courier New" SIZE=1 COLOR="#0000FF">LEX</FONT><FONT FACE="Courier New" SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp; 45&nbsp; 37&nbsp; .549&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 22&nbsp; 19&nbsp; .537&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 23&nbsp; 18&nbsp; .561&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4-6&nbsp;&nbsp;&nbsp;&nbsp; Lost 1<br>
+</FONT><FONT FACE="Courier New" SIZE=1 COLOR="#0000FF">LIN</FONT><FONT FACE="Courier New" SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp; 65&nbsp; 17&nbsp; .793&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 32&nbsp;&nbsp; 9&nbsp; .780&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 33&nbsp;&nbsp; 8&nbsp; .805&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7-3&nbsp;&nbsp;&nbsp;&nbsp; Lost 1<br>
+</FONT><FONT FACE="Courier New" SIZE=1 COLOR="#0000FF">MIN</FONT><FONT FACE="Courier New" SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp; 34&nbsp; 48&nbsp; .415&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 23&nbsp; 18&nbsp; .561&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11&nbsp; 30&nbsp; .268&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4-6&nbsp;&nbsp;&nbsp;&nbsp; Lost 1<br>
+</FONT><FONT FACE="Courier New" SIZE=1 COLOR="#0000FF">NAZ</FONT><FONT FACE="Courier New" SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp; 38&nbsp; 44&nbsp; .463&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 27&nbsp; 14&nbsp; .659&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11&nbsp; 30&nbsp; .268&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4-6&nbsp;&nbsp;&nbsp;&nbsp; Lost 1<br>
+</FONT><FONT FACE="Courier New" SIZE=1 COLOR="#0000FF">PLE</FONT><FONT FACE="Courier New" SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp; 44&nbsp; 38&nbsp; .537&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 21&nbsp; 20&nbsp; .512&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 23&nbsp; 18&nbsp; .561&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5-5&nbsp;&nbsp;&nbsp;&nbsp; Won 1<br>
+</FONT><FONT FACE="Courier New" SIZE=1 COLOR="#0000FF">REA</FONT><FONT FACE="Courier New" SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp; 40&nbsp; 42&nbsp; .488&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 17&nbsp; 24&nbsp; .415&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 23&nbsp; 18&nbsp; .561&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7-3&nbsp;&nbsp;&nbsp;&nbsp; Won 4<br>
+</FONT><FONT FACE="Courier New" SIZE=1 COLOR="#0000FF">ROE</FONT><FONT FACE="Courier New" SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp; 20&nbsp; 62&nbsp; .244&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10&nbsp; 31&nbsp; .244&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10&nbsp; 31&nbsp; .244&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2-8&nbsp;&nbsp;&nbsp;&nbsp; Lost 5<br>
+</FONT><FONT FACE="Courier New" SIZE=1 COLOR="#0000FF">ROM</FONT><FONT FACE="Courier New" SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp; 47&nbsp; 35&nbsp; .573&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 25&nbsp; 16&nbsp; .610&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 22&nbsp; 19&nbsp; .537&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8-2&nbsp;&nbsp;&nbsp;&nbsp; Won 4<br>
+</FONT><FONT FACE="Courier New" SIZE=1 COLOR="#0000FF">RUC</FONT><FONT FACE="Courier New" SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp; 29&nbsp; 53&nbsp; .354&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 14&nbsp; 27&nbsp; .341&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 15&nbsp; 26&nbsp; .366&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1-9&nbsp;&nbsp;&nbsp;&nbsp; Won 1<br>
+</FONT><FONT FACE="Courier New" SIZE=1 COLOR="#0000FF">SUN</FONT><FONT FACE="Courier New" SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp; 62&nbsp; 20&nbsp; .756&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 31&nbsp; 10&nbsp; .756&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 31&nbsp; 10&nbsp; .756&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9-1&nbsp;&nbsp;&nbsp;&nbsp; Lost 1<br>
+</FONT><FONT FACE="Courier New" SIZE=1 COLOR="#0000FF">TEM</FONT><FONT FACE="Courier New" SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp; 51&nbsp; 31&nbsp; .622&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 26&nbsp; 15&nbsp; .634&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 25&nbsp; 16&nbsp; .610&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7-3&nbsp;&nbsp;&nbsp;&nbsp; Won 6<br>
+</FONT><FONT FACE="Courier New" SIZE=1 COLOR="#0000FF">TUL</FONT><FONT FACE="Courier New" SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp; 26&nbsp; 56&nbsp; .317&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 19&nbsp; 22&nbsp; .463&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7&nbsp; 34&nbsp; .171&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5-5&nbsp;&nbsp;&nbsp;&nbsp; Lost 3<br>
+</FONT><FONT FACE="Courier New" SIZE=1>TOTAL&nbsp; 902 902&nbsp; .500&nbsp;&nbsp;&nbsp;&nbsp; 469 433&nbsp; .520&nbsp;&nbsp;&nbsp;&nbsp; 433 469&nbsp; .480<br>
+</FONT><FONT FACE="Courier New" SIZE=1 COLOR="#FF0000"><br>
+</FONT><FONT FACE="Courier New" SIZE=1 COLOR="#FF0000">&nbsp;&nbsp;&nbsp;&nbsp; OVERTIME RECORD&nbsp;&nbsp;&nbsp;&nbsp; 5 PTS OR LESS&nbsp; LONGEST STREAK&nbsp;&nbsp; MOST PTS LEAST PTS<br>
+</FONT><FONT FACE="Courier New" SIZE=1 COLOR="#FF0000">Team&nbsp;&nbsp; WON LOST&nbsp; PCT&nbsp;&nbsp;&nbsp;&nbsp; WON LOST&nbsp; PCT&nbsp;&nbsp;&nbsp;&nbsp; WIN LOSS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; TEAM OPP&nbsp; TEAM OPP<br>
+</FONT><FONT FACE="Courier New" SIZE=1 COLOR="#0000FF">ANA</FONT><FONT FACE="Courier New" SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp; 1&nbsp; .500&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6&nbsp; 10&nbsp; .375&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp; 6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 135 130&nbsp;&nbsp;&nbsp; 72&nbsp; 67<br>
+</FONT><FONT FACE="Courier New" SIZE=1 COLOR="#0000FF">ANC</FONT><FONT FACE="Courier New" SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp; 0 1.000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5&nbsp; 11&nbsp; .313&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7&nbsp;&nbsp; 6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 138 144&nbsp;&nbsp;&nbsp; 81&nbsp; 75<br>
+</FONT><FONT FACE="Courier New" SIZE=1 COLOR="#0000FF">AND</FONT><FONT FACE="Courier New" SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp; 0 1.000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 14&nbsp; 10&nbsp; .583&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 136 134&nbsp;&nbsp;&nbsp; 78&nbsp; 69<br>
+</FONT><FONT FACE="Courier New" SIZE=1 COLOR="#0000FF">BAC</FONT><FONT FACE="Courier New" SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp; 0 1.000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp; 9&nbsp; .308&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 131 145&nbsp;&nbsp;&nbsp; 74&nbsp; 68<br>
+</FONT><FONT FACE="Courier New" SIZE=1 COLOR="#0000FF">BAY</FONT><FONT FACE="Courier New" SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp; 1&nbsp; .667&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9&nbsp;&nbsp; 8&nbsp; .529&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp; 6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 144 134&nbsp;&nbsp;&nbsp; 77&nbsp; 69<br>
+</FONT><FONT FACE="Courier New" SIZE=1 COLOR="#0000FF">BOU</FONT><FONT FACE="Courier New" SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp; 0 1.000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6&nbsp; 11&nbsp; .353&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp; 7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 123 133&nbsp;&nbsp;&nbsp; 74&nbsp; 62<br>
+</FONT><FONT FACE="Courier New" SIZE=1 COLOR="#0000FF">DAK</FONT><FONT FACE="Courier New" SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp; 1&nbsp; .500&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11&nbsp;&nbsp; 5&nbsp; .688&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4&nbsp; 13&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 129 131&nbsp;&nbsp;&nbsp; 66&nbsp; 72<br>
+</FONT><FONT FACE="Courier New" SIZE=1 COLOR="#0000FF">DAV</FONT><FONT FACE="Courier New" SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0&nbsp;&nbsp; 0&nbsp; ----&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp; 2&nbsp; .600&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 16&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 146 133&nbsp;&nbsp;&nbsp; 77&nbsp; 72<br>
+</FONT><FONT FACE="Courier New" SIZE=1 COLOR="#0000FF">LAK</FONT><FONT FACE="Courier New" SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0&nbsp;&nbsp; 1&nbsp; .000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9&nbsp;&nbsp; 6&nbsp; .600&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 18&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 158 148&nbsp;&nbsp;&nbsp; 85&nbsp; 74<br>
+</FONT><FONT FACE="Courier New" SIZE=1 COLOR="#0000FF">LAW</FONT><FONT FACE="Courier New" SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0&nbsp;&nbsp; 2&nbsp; .000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7&nbsp;&nbsp; 7&nbsp; .500&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp; 18&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 118 130&nbsp;&nbsp;&nbsp; 68&nbsp; 70<br>
+</FONT><FONT FACE="Courier New" SIZE=1 COLOR="#0000FF">LEX</FONT><FONT FACE="Courier New" SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp; 3&nbsp; .250&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp; 6&nbsp; .333&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 131 134&nbsp;&nbsp;&nbsp; 72&nbsp; 74<br>
+</FONT><FONT FACE="Courier New" SIZE=1 COLOR="#0000FF">LIN</FONT><FONT FACE="Courier New" SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp; 0 1.000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7&nbsp;&nbsp; 7&nbsp; .500&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 19&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 145 131&nbsp;&nbsp;&nbsp; 86&nbsp; 71<br>
+</FONT><FONT FACE="Courier New" SIZE=1 COLOR="#0000FF">MIN</FONT><FONT FACE="Courier New" SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp; 2&nbsp; .333&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10&nbsp;&nbsp; 6&nbsp; .625&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp; 6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 131 144&nbsp;&nbsp;&nbsp; 73&nbsp; 74<br>
+</FONT><FONT FACE="Courier New" SIZE=1 COLOR="#0000FF">NAZ</FONT><FONT FACE="Courier New" SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0&nbsp;&nbsp; 2&nbsp; .000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11&nbsp; 10&nbsp; .524&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 130 139&nbsp;&nbsp;&nbsp; 80&nbsp; 82<br>
+</FONT><FONT FACE="Courier New" SIZE=1 COLOR="#0000FF">PLE</FONT><FONT FACE="Courier New" SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp; 2&nbsp; .333&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8&nbsp;&nbsp; 8&nbsp; .500&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 131 158&nbsp;&nbsp;&nbsp; 76&nbsp; 67<br>
+</FONT><FONT FACE="Courier New" SIZE=1 COLOR="#0000FF">REA</FONT><FONT FACE="Courier New" SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0&nbsp;&nbsp; 0&nbsp; ----&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7&nbsp;&nbsp; 9&nbsp; .438&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7&nbsp; 11&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 137 127&nbsp;&nbsp;&nbsp; 67&nbsp; 76<br>
+</FONT><FONT FACE="Courier New" SIZE=1 COLOR="#0000FF">ROE</FONT><FONT FACE="Courier New" SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp; 1&nbsp; .500&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9&nbsp;&nbsp; 7&nbsp; .563&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp; 10&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 122 135&nbsp;&nbsp;&nbsp; 61&nbsp; 73<br>
+</FONT><FONT FACE="Courier New" SIZE=1 COLOR="#0000FF">ROM</FONT><FONT FACE="Courier New" SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0&nbsp;&nbsp; 2&nbsp; .000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6&nbsp; 11&nbsp; .353&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 131 137&nbsp;&nbsp;&nbsp; 68&nbsp; 61<br>
+</FONT><FONT FACE="Courier New" SIZE=1 COLOR="#0000FF">RUC</FONT><FONT FACE="Courier New" SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp; 1&nbsp; .667&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10&nbsp; 10&nbsp; .500&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp; 10&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 119 137&nbsp;&nbsp;&nbsp; 67&nbsp; 71<br>
+</FONT><FONT FACE="Courier New" SIZE=1 COLOR="#0000FF">SUN</FONT><FONT FACE="Courier New" SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp; 1&nbsp; .500&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7&nbsp;&nbsp; 7&nbsp; .500&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 148 143&nbsp;&nbsp;&nbsp; 80&nbsp; 74<br>
+</FONT><FONT FACE="Courier New" SIZE=1 COLOR="#0000FF">TEM</FONT><FONT FACE="Courier New" SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0&nbsp;&nbsp; 1&nbsp; .000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 15&nbsp;&nbsp; 8&nbsp; .652&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 133 146&nbsp;&nbsp;&nbsp; 83&nbsp; 72<br>
+</FONT><FONT FACE="Courier New" SIZE=1 COLOR="#0000FF">TUL</FONT><FONT FACE="Courier New" SIZE=1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp; 1&nbsp; .500&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10&nbsp;&nbsp; 9&nbsp; .526&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp; 8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 125 132&nbsp;&nbsp;&nbsp; 62&nbsp; 66<br>
+</FONT></div>
+</BODY></HTML>
